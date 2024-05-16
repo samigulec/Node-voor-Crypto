@@ -79,7 +79,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable initia.service
 ```
 
-## İnitalize işlemleri
+## İnitalize 
 
 ```console
 
