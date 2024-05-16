@@ -10,7 +10,7 @@ mv build/slinky /usr/local/bin/
 rm -rf build
 ````
 ```console
-# bir kerede copy paste
+
 sudo tee /etc/systemd/system/slinky.service > /dev/null <<EOF
 [Unit]
 Description=Initia Slinky Oracle
@@ -35,12 +35,12 @@ sudo systemctl start slinky.service
 ```console
 screen -S oracle
 make run-oracle-client
-# CTRL A D ile çıkalım sonra
+
 ````
 ```console
-# bu komutla dosyayı açalım
+
 nano config/app.toml
-# içine aşağıdakileri yapıstıralım komple:
+
 ```
 ```console
 ###############################################################################
